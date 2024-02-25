@@ -18,8 +18,8 @@
         </div>
         <ul class="nav-list">
           <li><a href="agendamento.php">Marcar um horário</a></li>
-          <li><a href="#">Ligar agora</a></li>
-          <li><a href="#">Endereço</a></li>
+          <li><a href="(14)99999-9999">Ligar agora</a></li>
+          <li><a href="https://www.google.com.br/maps/place/Cabeleleila+Leila/@-31.7672774,-52.3416396,17z/data=!3m1!4b1!4m6!3m5!1s0x9511b50114d56beb:0x902203d489eb0a92!8m2!3d-31.7672774!4d-52.3390593!16s%2Fg%2F11k68jdy34?entry=ttu" target="_blanck" >Endereço</a></li>
         </ul>
       </nav>
     </header>
