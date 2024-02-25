@@ -13,9 +13,6 @@
         <?php
             include 'conecta.php';
 
-            
-                            
-
             if (isset($_POST['date'], $_POST['time'], $_POST['list'])) {
                 $date = $_POST['date'];
                 $time = $_POST['time'];
@@ -27,7 +24,7 @@
                 if ($currentDate > $twoDaysBefore) {
                     echo "Desculpe, a alteração só pode ser feita com pelo menos dois dias de antecedência.";
                 } else {
-                    $sql = "INSERT INTO agendamentos (date, time, services) VALUES ('$date', '$time', '$services')";
+                    $sql = "INSERT INTO agendamentos (date, time, services) VALUES ('$data_hora', '$time', '$services')";
                     if ($conn->query($sql) === TRUE) {
                         echo "Agendamento realizado com sucesso!";
                     } else {
