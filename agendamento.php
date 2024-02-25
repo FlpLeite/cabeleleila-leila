@@ -8,6 +8,22 @@
 </head>
 <body>
 
+    <header>
+      <nav>
+        <a class="logo" href="homepage.html">Cabeleleila Leila</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="agendamento.php">Marcar um horário</a></li>
+          <li><a href="#">Ligar agora</a></li>
+          <li><a href="#">Endereço</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <?php
         session_start();
 
@@ -21,26 +37,47 @@
         <h1>Agendamento de Serviços</h1>
         <form id="appointment-form" action="process_form.php" method="post">
             <label>Selecione o(s) serviço(s):</label><br>
-            <input type="checkbox" id="corte" name="services[]" value="corte">
-            <label for="corte">Corte de Cabelo</label><br>
-            <input type="checkbox" id="coloracao" name="services[]" value="coloracao">
-            <label for="coloracao">Coloração</label><br>
-            <input type="checkbox" id="pedicure" name="services[]" value="pedicure">
-            <label for="pedicure">Pedicure</label><br>
-            <input type="checkbox" id="hidratacao" name="services[]" value="hidratacao">
-            <label for="hidratacao">Hidratação Capilar</label><br>
-            <input type="checkbox" id="progressiva" name="services[]" value="progressiva">
-            <label for="progressiva">Escova Progressiva</label><br>
-            <input type="checkbox" id="depilacao" name="services[]" value="depilacao">
-            <label for="depilacao">Depilação</label><br>
-            <input type="checkbox" id="sobrancelha" name="services[]" value="sobrancelha">
-            <label for="sobrancelha">Design de Sobrancelha</label><br>
-            <input type="checkbox" id="maquiagem" name="services[]" value="maquiagem">
-            <label for="maquiagem">Maquiagem</label><br>
-            <input type="checkbox" id="spa" name="services[]" value="spa">
-            <label for="spa">Spa Facial</label><br>
-            <input type="checkbox" id="massagem" name="services[]" value="massagem">
-            <label for="massagem">Massagem Relaxante</label><br>
+            <div>
+                <input type="checkbox" id="corte" name="services[]" value="Corte de Cabelo">
+                <label for="corte">Corte de Cabelo</label><br>    
+            </div>
+            <div>
+                <input type="checkbox" id="coloracao" name="services[]" value="Coloração">
+                <label for="coloracao">Coloração</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="pedicure" name="services[]" value="Pedicure">
+                <label for="pedicure">Pedicure</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="hidratacao" name="services[]" value="Hidratação Capilar">
+                <label for="hidratacao">Hidratação Capilar</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="progressiva" name="services[]" value="Escova Progressiva">
+                <label for="progressiva">Escova Progressiva</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="depilacao" name="services[]" value="Depilação">
+                <label for="depilacao">Depilação</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="sobrancelha" name="services[]" value="Design de Sobrancelha">
+                <label for="sobrancelha">Design de Sobrancelha</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="maquiagem" name="services[]" value="Maquiagem">
+                <label for="maquiagem">Maquiagem</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="spa" name="services[]" value="Spa Facial">
+                <label for="spa">Spa Facial</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="massagem" name="services[]" value="Massagem Relaxante">
+                <label for="massagem">Massagem Relaxante</label><br>
+            </div>
+            <br>
 
             <label for="date">Data do Agendamento:</label>
             <input type="date" id="date" name="date" required><br>

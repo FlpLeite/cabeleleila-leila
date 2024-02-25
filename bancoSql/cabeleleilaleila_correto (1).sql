@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 24/02/2024 às 18:24
+-- Tempo de geração: 25/02/2024 às 19:30
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -81,7 +81,8 @@ INSERT INTO `usuarios` (`cliente_id`, `nome`, `telefone`, `email`, `senha`) VALU
 (1, 'felipe leite', NULL, 'teste@hmail.com', '$2y$10$1/gbPKI.avwpqMV/yUf3BO6ISuEqlWmBDRfBUo7j1pvCYuhtgfp7y'),
 (2, 'teste', NULL, 'teste@hotmail.com', '$2y$10$E.ZXThFxndG37R4Aqz3AOeNLE4wHXihUh1L1LYv60Aq8Wr3cI0dUS'),
 (3, 'teste1', NULL, 'teste1@gmail.com', '$2y$10$TLaQqdDrIk12WV5c9wE1aeKPa4AnFLOcaKUVdmIoMA9oZoVPTSB82'),
-(4, 'teste2', NULL, 'teste2@gmail.com', '$2y$10$VsAvYKDOZ1DNVft7PcMj6uS1QWhBh4hq1IcfaO9jEM3HVVWPRBbjG');
+(4, 'teste2', NULL, 'teste2@gmail.com', '$2y$10$VsAvYKDOZ1DNVft7PcMj6uS1QWhBh4hq1IcfaO9jEM3HVVWPRBbjG'),
+(5, 'teste5', NULL, 'teste5@gmail.com', '$2y$10$9re4rNHv9wQ6zLZT2JMwH.OmqM6VRhLHYDK6RyetDXTYZeJsA.fMm');
 
 --
 -- Índices para tabelas despejadas
@@ -134,7 +135,7 @@ ALTER TABLE `servico`
 -- AUTO_INCREMENT de tabela `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `cliente_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `cliente_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Restrições para tabelas despejadas

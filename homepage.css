@@ -131,9 +131,9 @@ padding: 20px;
 .card img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Faz a imagem preencher o espaço do container */
-  display: block; /* Garante que a imagem não tenha margens brancas */
-  border-radius: 8px; /* Garante que a borda arredondada seja aplicada também à imagem */
+  object-fit: cover; 
+  display: block;
+  border-radius: 8px;
 }
 
 .card h3,

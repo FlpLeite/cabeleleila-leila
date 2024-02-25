@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #DFC8C2;
 }
 
 .container {
@@ -39,7 +39,7 @@ select {
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #AF684A;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -48,4 +48,49 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+  
+a:hover {
+    opacity: 0.7;
+}
+  
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #b48e7b;
+    height: 8vh;
+}
+  
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+  
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.container {
+  box-shadow: 0 4px 8px rgba(100, 1, 1, 0.5);
+
 }
